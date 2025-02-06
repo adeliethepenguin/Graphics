@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JDEZcjeKVZMWEFZEsvw89lEiZbJ6E5TpagZB3KZjEDy6iJ30s8OHqbzP55Zuy9kyEXsV9QDPkA7VpfjU+462tA==",
+  "dgSpecHash": "v0VW/ZmZ0fP1C7hvwGYQcN4E6F8fDDaczipSaSNPcZrO9Qptje0cdDJ3MmwJmcnQ3cy4gUsOThQK9Vygrlr67Q==",
   "success": true,
   "projectFilePath": "D:\\(more) Projects\\Graphics\\Graphics.csproj",
   "expectedPackageFiles": [
@@ -15,11 +15,12 @@
     "C:\\Users\\joshu\\.nuget\\packages\\opentk.windowing.common\\4.8.1\\opentk.windowing.common.4.8.1.nupkg.sha512",
     "C:\\Users\\joshu\\.nuget\\packages\\opentk.windowing.desktop\\4.8.1\\opentk.windowing.desktop.4.8.1.nupkg.sha512",
     "C:\\Users\\joshu\\.nuget\\packages\\opentk.windowing.graphicslibraryframework\\4.8.1\\opentk.windowing.graphicslibraryframework.4.8.1.nupkg.sha512",
+    "C:\\Users\\joshu\\.nuget\\packages\\stbimagesharp\\2.27.13\\stbimagesharp.2.27.13.nupkg.sha512",
     "C:\\Users\\joshu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
-    "C:\\Users\\joshu\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.22\\microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
-    "C:\\Users\\joshu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.22\\microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512",
-    "C:\\Users\\joshu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.22\\microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512",
-    "C:\\Users\\joshu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.22\\microsoft.netcore.app.host.win-x64.6.0.22.nupkg.sha512"
+    "C:\\Users\\joshu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\joshu\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\joshu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\joshu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
   ],
   "logs": []
 }

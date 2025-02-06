@@ -60,3 +60,5 @@ D:\(more) Projects\Graphics\obj\Debug\net6.0\refint\Graphics.dll
 D:\(more) Projects\Graphics\obj\Debug\net6.0\Graphics.pdb
 D:\(more) Projects\Graphics\obj\Debug\net6.0\Graphics.genruntimeconfig.cache
 D:\(more) Projects\Graphics\obj\Debug\net6.0\ref\Graphics.dll
+D:\(more) Projects\Graphics\bin\Debug\net6.0\StbImageSharp.dll
+D:\(more) Projects\Graphics\obj\Debug\net6.0\Graphics.sourcelink.json

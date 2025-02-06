@@ -9,16 +9,31 @@ public class Shader : IDisposable
     public Shader(string vertexPath, string fragmentPath)
     {
         int vertexHandle = GL.CreateShader(ShaderType.VertexShader);
-        GL.ShaderSource(vertexHandle, File.ReadAllText(@"D:\(more) Projects\Graphics\"+vertexPath));
+        GL.ShaderSource(vertexHandle, File.ReadAllText(StaticUtilities.ShaderDirectory+vertexPath));
         
         int fragmentHandle = GL.CreateShader(ShaderType.FragmentShader);
-        GL.ShaderSource(fragmentHandle, File.ReadAllText(@"D:\(more) Projects\Graphics\"+fragmentPath));
+        GL.ShaderSource(fragmentHandle, File.ReadAllText(StaticUtilities.ShaderDirectory+fragmentPath));
+
+       // int rippleHandle = GL.CreateShader(ShaderType.VertexShader);
+      //  GL.ShaderSource(rippleHandle, File.ReadAllText(StaticUtilities.ShaderDirectory + ripplePath));
 
         int successState = 0; // 1 true 0 false
-        
-        
+
         // --- VERTEX SHADER LOADING ---
-        
+
+      //  GL.CompileShader(rippleHandle);
+      //  GL.GetShader(rippleHandle, ShaderParameter.CompileStatus, out successState);
+
+       // if (successState == 0)
+      //  {
+      //      Console.ForegroundColor = ConsoleColor.Red;
+     //       Console.WriteLine("Error in Ripple Shader: " + GL.GetShaderInfoLog(vertexHandle));
+     //       Console.ForegroundColor = ConsoleColor.White;
+    //    }
+
+
+        // --- VERTEX SHADER LOADING ---
+
         GL.CompileShader(vertexHandle);
         GL.GetShader(vertexHandle, ShaderParameter.CompileStatus, out successState);
         
